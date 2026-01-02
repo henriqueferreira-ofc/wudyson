@@ -1,0 +1,13 @@
+/* Custom CSS - Tailwind is loaded via CDN in index.html */
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* Fallback background */
+    color: white;
+}
