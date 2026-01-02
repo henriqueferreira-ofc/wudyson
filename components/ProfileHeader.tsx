@@ -1,4 +1,5 @@
 import React from 'react';
+import wudyson from '../src/assets/wudyson.png';
 
 const ProfileHeader: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const ProfileHeader: React.FC = () => {
       <div className="relative group cursor-pointer">
         <div className="absolute -inset-1 bg-gold rounded-full opacity-75 group-hover:opacity-100 blur transition duration-500"></div>
         <img
-          src="assets/wudyson.png"
+          src={wudyson}
           alt="Foto do perfil"
           className="relative w-32 h-32 rounded-full border-4 border-gold object-cover shadow-lg transform transition duration-500 group-hover:scale-105"
         />
