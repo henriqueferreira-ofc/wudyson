@@ -12,13 +12,13 @@ const actions: ActionButtonProps[] = [
     iconClass: 'fa-solid fa-location-dot',
     label: 'Escritório',
     colorClass: 'text-red-400',
-    onClick: () => window.open('https://maps.app.goo.gl/9oPp4ghLkRMZZD2s7', '_blank'),
+    onClick: () => window.open('https://maps.app.goo.gl/xfQRyphGShmqCK6y5', '_blank'),
   },
   {
     iconClass: 'fa-solid fa-envelope',
     label: 'E-mail',
     colorClass: 'text-blue-300',
-    onClick: () => window.location.href = 'mailto:henriqueanalista.ads@gmail.com',
+    onClick: () => window.location.href = 'mailto:wudyson@hotmail.com',
   },
   {
     iconClass: 'fa-solid fa-globe',
