@@ -63,7 +63,7 @@ const PropertyCatalog: React.FC = () => {
 
                                 <div className="flex justify-between items-center mt-3 pt-3 border-t border-white/5">
                                     <span className="text-gold font-bold text-lg">{property.price}</span>
-                                    <button className="text-xs text-white border border-white/30 px-3 py-1.5 rounded hover:bg-white hover:text-black transition-colors">
+                                    <button className="text-xs text-white border border-white/30 px-3 py-1.5 rounded hover:bg-gold hover:text-black transition-colors cursor-pointer relative z-10">
                                         Ver Detalhes
                                     </button>
                                 </div>
